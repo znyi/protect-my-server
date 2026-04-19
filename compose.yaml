@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    image: protect-my-server
+    container_name: protect-my-server
+    ports:
+      - "8080:8080"
